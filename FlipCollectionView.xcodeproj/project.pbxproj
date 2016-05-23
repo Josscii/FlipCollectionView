@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5D8FFA1CF34FCD0095F9CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5D8FF91CF34FCD0095F9CA /* AppDelegate.swift */; };
+		BB5D8FFF1CF34FCD0095F9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5D8FFD1CF34FCD0095F9CA /* Main.storyboard */; };
+		BB5D90011CF34FCD0095F9CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5D90001CF34FCD0095F9CA /* Assets.xcassets */; };
+		BB5D90041CF34FCD0095F9CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5D90021CF34FCD0095F9CA /* LaunchScreen.storyboard */; };
+		BB5D900C1CF34FFD0095F9CA /* FlipCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5D900B1CF34FFD0095F9CA /* FlipCollectionViewController.swift */; };
+		BB5D900E1CF3502D0095F9CA /* FlipLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5D900D1CF3502D0095F9CA /* FlipLayout.swift */; };
+		BB5D90101CF350450095F9CA /* FlipCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5D900F1CF350450095F9CA /* FlipCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB5D8FF61CF34FCD0095F9CA /* FlipCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5D8FF91CF34FCD0095F9CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB5D8FFE1CF34FCD0095F9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB5D90001CF34FCD0095F9CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5D90031CF34FCD0095F9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB5D90051CF34FCD0095F9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5D900B1CF34FFD0095F9CA /* FlipCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipCollectionViewController.swift; sourceTree = "<group>"; };
+		BB5D900D1CF3502D0095F9CA /* FlipLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipLayout.swift; sourceTree = "<group>"; };
+		BB5D900F1CF350450095F9CA /* FlipCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB5D8FF31CF34FCD0095F9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5D8FED1CF34FCD0095F9CA = {
+			isa = PBXGroup;
+			children = (
+				BB5D8FF81CF34FCD0095F9CA /* FlipCollectionView */,
+				BB5D8FF71CF34FCD0095F9CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5D8FF71CF34FCD0095F9CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5D8FF61CF34FCD0095F9CA /* FlipCollectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5D8FF81CF34FCD0095F9CA /* FlipCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BB5D900B1CF34FFD0095F9CA /* FlipCollectionViewController.swift */,
+				BB5D900D1CF3502D0095F9CA /* FlipLayout.swift */,
+				BB5D900F1CF350450095F9CA /* FlipCollectionViewCell.swift */,
+				BB5D8FF91CF34FCD0095F9CA /* AppDelegate.swift */,
+				BB5D8FFD1CF34FCD0095F9CA /* Main.storyboard */,
+				BB5D90001CF34FCD0095F9CA /* Assets.xcassets */,
+				BB5D90021CF34FCD0095F9CA /* LaunchScreen.storyboard */,
+				BB5D90051CF34FCD0095F9CA /* Info.plist */,
+			);
+			path = FlipCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5D8FF51CF34FCD0095F9CA /* FlipCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5D90081CF34FCD0095F9CA /* Build configuration list for PBXNativeTarget "FlipCollectionView" */;
+			buildPhases = (
+				BB5D8FF21CF34FCD0095F9CA /* Sources */,
+				BB5D8FF31CF34FCD0095F9CA /* Frameworks */,
+				BB5D8FF41CF34FCD0095F9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipCollectionView;
+			productName = FlipCollectionView;
+			productReference = BB5D8FF61CF34FCD0095F9CA /* FlipCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5D8FEE1CF34FCD0095F9CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Josscii;
+				TargetAttributes = {
+					BB5D8FF51CF34FCD0095F9CA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8ZXMZHX876;
+					};
+				};
+			};
+			buildConfigurationList = BB5D8FF11CF34FCD0095F9CA /* Build configuration list for PBXProject "FlipCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5D8FED1CF34FCD0095F9CA;
+			productRefGroup = BB5D8FF71CF34FCD0095F9CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5D8FF51CF34FCD0095F9CA /* FlipCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5D8FF41CF34FCD0095F9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5D90041CF34FCD0095F9CA /* LaunchScreen.storyboard in Resources */,
+				BB5D90011CF34FCD0095F9CA /* Assets.xcassets in Resources */,
+				BB5D8FFF1CF34FCD0095F9CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB5D8FF21CF34FCD0095F9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5D900E1CF3502D0095F9CA /* FlipLayout.swift in Sources */,
+				BB5D90101CF350450095F9CA /* FlipCollectionViewCell.swift in Sources */,
+				BB5D900C1CF34FFD0095F9CA /* FlipCollectionViewController.swift in Sources */,
+				BB5D8FFA1CF34FCD0095F9CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB5D8FFD1CF34FCD0095F9CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5D8FFE1CF34FCD0095F9CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB5D90021CF34FCD0095F9CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5D90031CF34FCD0095F9CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB5D90061CF34FCD0095F9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB5D90071CF34FCD0095F9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB5D90091CF34FCD0095F9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlipCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josscii.FlipCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB5D900A1CF34FCD0095F9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlipCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josscii.FlipCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB5D8FF11CF34FCD0095F9CA /* Build configuration list for PBXProject "FlipCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5D90061CF34FCD0095F9CA /* Debug */,
+				BB5D90071CF34FCD0095F9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB5D90081CF34FCD0095F9CA /* Build configuration list for PBXNativeTarget "FlipCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5D90091CF34FCD0095F9CA /* Debug */,
+				BB5D900A1CF34FCD0095F9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB5D8FEE1CF34FCD0095F9CA /* Project object */;
+}
